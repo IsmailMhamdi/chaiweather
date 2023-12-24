@@ -83,7 +83,7 @@ export default function Weather() {
             <div className="d-flex pb-5 justify-content-center gap-2 pt-4"> 
             
             <input type="text" placeholder="Search" className="d-flex focus-ring fs-5 bold cityInput  bg-light text-secondary py-2 ps-3 w-50 border-0 rounded-4" />
-                <a className="search-icon d-block" href="https://chaiweather.vercel.app/" onClick={ ()=>{search()}}>
+                <a className="search-icon d-block" href="#" onClick={ ()=>{search()}}>
                     <img src={search_icon} className="d-flex justify-content-center align-items-center p-3 rounded-circle bg-light cursor-pointer" alt="" />
                 </a>
             </div>
