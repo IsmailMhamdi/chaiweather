@@ -1,5 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faDroplet,faWind,faTemperatureArrowUp,faTemperatureArrowDown} from '@fortawesome/free-solid-svg-icons'
 import { useState } from 'react'
 import search_icon from '../assets/search.png';
@@ -87,7 +88,7 @@ export default function Weather() {
                     <img src={search_icon} className="d-flex justify-content-center align-items-center p-3 rounded-circle bg-light cursor-pointer" alt="" />
                 </a>
             </div>
-            <div className=" d-flex justify-content-center mt-0 mb-2">
+            <div className="d-flex justify-content-center mt-0 mb-2">
                 <img src={wicon} alt="" className="rounded-circle p-3 w-25 bg-dark"  />
             </div>
             <div className="d-flex justify-content-center">
@@ -125,7 +126,10 @@ export default function Weather() {
                 </div>
                 
             </div>
-            <div className="text-dark mt-3 fw-bold mt-2 p-1"><p>© 2023 Ismail Mhamdi</p></div>
+            <div className=" mt-3 fw-bold mt-2 p-1">
+                <a href="https://www.linkedin.com/in/ismail-mhamdi1/" className="text-dark nav-link">
+                    <p className="d-flex justify-content-center align-items-center">© 2023 Ismail Mhamdi <FontAwesomeIcon className="fs-5 ms-2" icon={faLinkedin} /></p></a>
+            </div>
         </div>
         </>
     
