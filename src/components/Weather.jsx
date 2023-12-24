@@ -125,7 +125,7 @@ export default function Weather() {
                 </div>
                 
             </div>
-            <div className="text-dark mt-3 fw-bold p-1"><p>© 2023 Ismail Mhamdi</p></div>
+            <div className="text-dark mt-3 fw-bold mt-2 p-1"><p>© 2023 Ismail Mhamdi</p></div>
         </div>
         </>
     
